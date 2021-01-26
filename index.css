@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Maven+Pro:500&display=swap");
+
+html,
+body {
+  background-color: black;
+  /* display: flex; */
+  justify-content: center;
+  font-family: ‘Maven Pro’, sans-serif;
+  height: 95%;
+  align-items: baseline;
+  color: whitesmoke;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+#app {
+  width: 450px;
+  background-color: #241e4e;
+  color: #f8ebe7;
+  border-radius: 5px;
+  position: relative;
+  top: 52%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding-right: 10px;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+h1 {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+form > button {
+  height: 50px;
+  margin-left: 2%;
+  color: #241e4e;
+}
+
+form > input {
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid #f8ebe7;
+}
+
+button:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(248, 235, 231, 1);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(248, 235, 231, 1);
+  box-shadow: 1px 1px 5px 0px rgba(248, 235, 231, 1);
+}
+
+ul {
+  list-style-type: none;
+  text-transform: capitalize;
+  margin-left: -5%;
+}
+
+li > span {
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+li > span > button {
+  height: 30px;
+  padding-top: 2%;
+  margin-top: 15px;
+}
+
+button:nth-child(2) {
+  background-color: #960200;
+}
+
+button:nth-child(3) {
+  background: #5e8e70;
+}
+
+#button {
+  background-color: #f8ebe7;
+}
