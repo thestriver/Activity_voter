@@ -42,7 +42,7 @@ h1 {
 form {
   display: flex;
   justify-content: center;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
 }
 
 form > button {
@@ -78,6 +78,7 @@ ul {
 li > span {
   margin-left: 20%;
   margin-top: 20px;
+  font-size: 30px;
 }
 
 li > span > button {
